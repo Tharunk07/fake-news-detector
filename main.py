@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request
 from predictor import Predictor
-
+import pandas as pd
 prediction=Predictor()
 app=Flask(__name__)
 
